@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: 'Figtree', sans-serif;
+}
+.learn {
+  display: block;
+  height: 20px;
+  width: 60px;
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 8px;
+  font-size: 10px;
+  padding: 4px 10px;
+}
+h6 {
+  margin-top: 8px;
+}
+.main {
+  margin-top: 12px;
+}
+.para {
+  margin-top: 12px;
+  color: hsl(0, 0%, 50%);
+  font-size: 16px;
+  font-weight: 600;
+}
+.ssd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.im {
+  margin-top: 150px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 15px;
+  width: 350px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+  border-radius: 10px;
+}
+.ssd :hover {
+  background-color: #e4e4e4;
+}
+.im img {
+  border-radius: 10px;
+  width: 100%;
+}
+.avatar {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+.avatar img {
+  height: 50px;
+  width: 50px;
+}
+.av_name {
+  margin-left: 10px;
+}
+@media (max-width: 786px) {
+  body {
+    background-color: black;
+  }
+  .im {
+    background-color: brown;
+  }
+}
+/* @media (min-width: 490px) {
+  body {
+    background-color: rgb(9, 75, 56);
+  }
+  .im {
+    background-color: rgb(255, 99, 99);
+  }
+} */
